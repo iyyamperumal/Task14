@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(75, 230, 75);
+}
+
+.input-div {
+  display: flex;
+  gap: 2rem;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: rgb(75, 230, 75);
+  color: white;
+  height: 40px;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 2px 5px 0px rgb(75, 230, 75);
+}
+
+.todos {
+  margin: 10px;
+  padding: 10px;
+  background-color: cyan;
+  width: 300px;
+  text-align: left;
+
+}
+
+.middle {
+  margin: 10px;
+  padding: 5px;
+}
+
+.middle1 {
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  right: 350px;
+
+}
+
+.middle2 {
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  left: 400px;
+}
+
+.dropdown {
+  margin-left: 5px;
+}
+
+.todos-box {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btn-outline-secondary {
+  background-color: maroon;
+  color: white;
+}
+
+.edit {
+  margin: 10px;
+  width: 80px;
+  height: 30px;
+  padding: 2px;
+  color: white;
+  background-color: rgb(2, 169, 2);
+}
+
+.delete {
+  margin: 5px;
+  width: 80px;
+  height: 30px;
+  padding: 2px;
+  color: white;
+  background-color: rgb(253, 5, 5);
+}
+
+@media screen and (min-width:320px) and (max-width:760px) {
+  .input-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .middle1 {
+    position: relative;
+    right: 40px;
+
+  }
+
+  .middle2 {
+    position: relative;
+    left: 40px;
+  }
+
+  .dropdown {
+    position: relative;
+    left: 100px;
+  }
+
+  .todos-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
